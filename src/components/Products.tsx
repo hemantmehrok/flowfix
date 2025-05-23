@@ -128,8 +128,9 @@ const Products: React.FC = () => {
               {/* Buy Now Button */}
               <a
                 href="https://rzp.io/rzp/spOthHZh"
-                className="w-full bg-royal-blue-600 hover:bg-royal-blue-500 text-white py-3 rounded-lg transition-all flex items-center justify-center gap-2 group"
                 target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-royal-blue-600 hover:bg-royal-blue-500 text-white py-3 rounded-lg transition-all flex items-center justify-center gap-2 group"
               >
                 <span className="font-semibold">Buy Now</span>
               </a>
