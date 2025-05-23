@@ -9,7 +9,7 @@ const OrderForm: React.FC = () => {
   useEffect(() => {
     if (state.succeeded) {
       setTimeout(() => {
-        window.location.href = "https://rzp.io/rzp/spOthHZh";
+        window.location.href ="https://rzp.io/l/plink_QYFRfvwEpiw3Xt";
       }, 1500); // 1.5 sec delay after success
     }
   }, [state.succeeded]);
