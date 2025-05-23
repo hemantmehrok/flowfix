@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useForm } from '@formspree/react';
 import { Check } from 'lucide-react';
 
@@ -6,11 +6,16 @@ const OrderForm: React.FC = () => {
   const [state, handleSubmitBase] = useForm("mbloepjw");
   const [quantity, setQuantity] = useState(1);
 
+  useEffect(() => {
+    if (state.succeeded) {
+      setTimeout(() => {
+        window.location.href = "https://rzp.io/rzp/spOthHZh";
+      }, 1500); // 1.5 sec delay after success
+    }
+  }, [state.succeeded]);
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     await handleSubmitBase(e);
-    if (state.succeeded) {
-      window.location.href = "https://rzp.io/rzp/spOthHZh";
-    }
   };
 
   if (state.succeeded) {
