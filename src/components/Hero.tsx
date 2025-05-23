@@ -41,16 +41,16 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="https://flowfixofficial.myshopify.com/cart/44374369018103:1"
+              href="https://www.flowfixofficial.com/product#order"
+              className="relative group overflow-hidden"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative group overflow-hidden"
             >
               <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-red-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
               <div className="relative bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 px-8 py-4 rounded-lg leading-none flex items-center overflow-hidden">
                 {/* Shine effect */}
                 <div className="absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent transform group-hover:translate-x-[200%] transition-transform duration-1000"></div>
-                <span className="text-white font-semibold text-lg relative z-10">Shop Now</span>
+                <span className="text-white font-semibold text-lg relative z-10">Buy Now</span>
                 <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform relative z-10" />
               </div>
             </a>
