@@ -42,10 +42,9 @@ const NasalStripSection: React.FC = () => {
               Our nasal strips gently lift and widen your nasal passages, delivering instant relief and better oxygen intake for peak performance and sleep.
             </p>
             <a 
-              href="https://formspree.io/f/mbloepjw"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/product#order"
               className="group relative inline-flex items-center"
+              target="_self"
             >
               <div className="absolute -inset-px bg-gradient-to-r from-white to-white/80 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative px-8 py-4 bg-white rounded-lg leading-none flex items-center">
