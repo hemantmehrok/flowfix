@@ -3,8 +3,15 @@ import { useForm } from '@formspree/react';
 import { Check } from 'lucide-react';
 
 const OrderForm: React.FC = () => {
-  const [state, handleSubmit] = useForm("mbloepjw");
+  const [state, handleSubmitBase] = useForm("mbloepjw");
   const [quantity, setQuantity] = useState(1);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    await handleSubmitBase(e);
+    if (state.succeeded) {
+      window.location.href = "https://rzp.io/rzp/spOthHZh";
+    }
+  };
 
   if (state.succeeded) {
     return (
@@ -14,7 +21,7 @@ const OrderForm: React.FC = () => {
         </div>
         <h3 className="text-2xl font-bold text-white mb-2">Thank You!</h3>
         <p className="text-gray-300">
-          Your order has been received. We'll contact you shortly to confirm the details.
+          Redirecting you to payment...
         </p>
       </div>
     );
