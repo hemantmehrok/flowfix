@@ -125,17 +125,17 @@ const Products: React.FC = () => {
                 Includes 4 magnetic nose clips, 30 adhesive tabs, and a magnetic tool for application. Designed for enhanced airflow, better sleep, and athletic performance.
               </p>
               
-              {/* Add to Cart Button */}
-              <button 
-                onClick={(e) => e.preventDefault()}
-                className="w-full bg-royal-blue-600 hover:bg-royal-blue-500 text-white py-3 rounded-lg transition-all flex items-center justify-center gap-2 mb-3 group"
+              {/* Buy Now Button */}
+              <a
+                href="https://rzp.io/rzp/spOthHZh"
+                className="w-full bg-royal-blue-600 hover:bg-royal-blue-500 text-white py-3 rounded-lg transition-all flex items-center justify-center gap-2 group"
+                target="_blank"
               >
-                <Plus size={20} className="group-hover:scale-110 transition-transform" />
-                <span className="font-semibold">Add to Cart</span>
-              </button>
+                <span className="font-semibold">Buy Now</span>
+              </a>
 
               {/* Trial Info */}
-              <p className="text-sm text-gray-400 text-center">30-Day Risk-Free Trial</p>
+              <p className="text-sm text-gray-400 text-center mt-3">30-Day Risk-Free Trial</p>
               <p className="text-sm text-gray-400 text-center">Free Shipping Across India</p>
             </div>
           </Link>
