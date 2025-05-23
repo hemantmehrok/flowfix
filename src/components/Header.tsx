@@ -62,11 +62,13 @@ const Header: React.FC = () => {
           {/* Right Side Actions */}
           <div className="hidden md:flex items-center gap-6">
             <a 
-              href="/product#order"
-              className="bg-royal-blue-600 hover:bg-royal-blue-500 text-white px-8 py-2 rounded-lg transition-all whitespace-nowrap"
-              target="_self"
+              href="https://rzp.io/rzp/spOthHZh"
+              className="bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white px-8 py-2 rounded-lg transition-all whitespace-nowrap relative overflow-hidden group"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Buy Now
+              <div className="absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent transform group-hover:translate-x-[200%] transition-transform duration-1000"></div>
+              <span className="relative z-10">Buy Now</span>
             </a>
             <button className="relative text-white hover:text-gold-400 transition-colors">
               <ShoppingCart size={24} />
@@ -95,11 +97,13 @@ const Header: React.FC = () => {
               <a href="#testimonials" className="block px-4 py-2 text-gray-200 hover:text-royal-blue-400 transition-colors" onClick={() => setIsMenuOpen(false)}>Reviews</a>
               <div className="px-4 pt-4 flex items-center justify-between border-t border-gray-800">
                 <a 
-                  href="/product#order"
-                  className="bg-royal-blue-600 hover:bg-royal-blue-500 text-white px-6 py-2 rounded-lg transition-all"
-                  target="_self"
+                  href="https://rzp.io/rzp/spOthHZh"
+                  className="bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white px-6 py-2 rounded-lg transition-all relative overflow-hidden group"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Buy Now
+                  <div className="absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent transform group-hover:translate-x-[200%] transition-transform duration-1000"></div>
+                  <span className="relative z-10">Buy Now</span>
                 </a>
                 <button className="relative text-white hover:text-gold-400 transition-colors">
                   <ShoppingCart size={24} />
