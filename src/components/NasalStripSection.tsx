@@ -41,13 +41,18 @@ const NasalStripSection: React.FC = () => {
               Never thought you had trouble breathing through your nose?
               Our nasal strips gently lift and widen your nasal passages, delivering instant relief and better oxygen intake for peak performance and sleep.
             </p>
-            <button className="group relative inline-flex items-center">
+            <a 
+              href="https://formspree.io/f/mbloepjw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-flex items-center"
+            >
               <div className="absolute -inset-px bg-gradient-to-r from-white to-white/80 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative px-8 py-4 bg-white rounded-lg leading-none flex items-center">
                 <span className="text-matte-black font-semibold text-lg">SHOP NOW</span>
                 <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </div>
-            </button>
+            </a>
           </div>
         </div>
       </div>

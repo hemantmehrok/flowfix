@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="https://flowfixofficial.myshopify.com/cart/44374369018103:1"
+              href="https://formspree.io/f/mbloepjw"
               target="_blank"
               rel="noopener noreferrer"
               className="relative group overflow-hidden"
