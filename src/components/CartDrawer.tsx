@@ -8,9 +8,7 @@ const CartDrawer: React.FC = () => {
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   const handleCheckout = () => {
-    // Redirect to Shopify checkout with the current cart items
-    const shopifyCartUrl = `https://flowfixofficial.myshopify.com/cart/44374369018103:${items[0]?.quantity || 1}`;
-    window.open(shopifyCartUrl, '_blank');
+    window.location.href = '/product#order';
     setIsCartOpen(false);
   };
 

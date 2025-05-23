@@ -62,10 +62,9 @@ const Header: React.FC = () => {
           {/* Right Side Actions */}
           <div className="hidden md:flex items-center gap-6">
             <a 
-              href="https://flowfixofficial.myshopify.com/cart/44374369018103:1"
+              href="/product#order"
               className="bg-royal-blue-600 hover:bg-royal-blue-500 text-white px-8 py-2 rounded-lg transition-all whitespace-nowrap"
-              target="_blank"
-              rel="noopener noreferrer"
+              target="_self"
             >
               Buy Now
             </a>
@@ -96,10 +95,9 @@ const Header: React.FC = () => {
               <a href="#testimonials" className="block px-4 py-2 text-gray-200 hover:text-royal-blue-400 transition-colors" onClick={() => setIsMenuOpen(false)}>Reviews</a>
               <div className="px-4 pt-4 flex items-center justify-between border-t border-gray-800">
                 <a 
-                  href="https://flowfixofficial.myshopify.com/cart/44374369018103:1"
+                  href="/product#order"
                   className="bg-royal-blue-600 hover:bg-royal-blue-500 text-white px-6 py-2 rounded-lg transition-all"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target="_self"
                 >
                   Buy Now
                 </a>
