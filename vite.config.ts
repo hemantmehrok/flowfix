@@ -1,13 +1,9 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: './',  // <-- THIS IS IMPORTANT
   plugins: [react()],
-  server: {
-    fs: {
-      allow: ['.', './node_modules/']
-    }
-  },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -21,4 +17,4 @@ export default defineConfig({
       }
     }
   }
-});
+})
