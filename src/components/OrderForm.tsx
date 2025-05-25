@@ -11,7 +11,7 @@ const OrderForm: React.FC = () => {
     await handleSubmitBase(e);
 
     // Redirect to Razorpay right after form submission
-   window.location.href = "https://rzp.io/l/spOthHZN";
+   window.location.href = "https://rzp.io/rzp/spOthHZh";
   };
 
   if (state.succeeded) {
