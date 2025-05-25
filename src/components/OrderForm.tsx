@@ -10,7 +10,9 @@ const OrderForm: React.FC = () => {
     e.preventDefault();
     await handleSubmitBase(e);
     if (state.succeeded) {
-      window.location.href = "https://rzp.io/rzp/spOthHZh";
+      setTimeout(() => {
+        window.location.href = "https://rzp.io/rzp/spOthHZh";
+      }, 1000);
     }
   };
 
