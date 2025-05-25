@@ -6,11 +6,13 @@ const OrderForm: React.FC = () => {
   const [state, handleSubmitBase] = useForm("mbloepjw");
   const [quantity, setQuantity] = useState(1);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    await handleSubmitBase(e);
-    if (state.succeeded) {
-      window.open("https://rzp.io/rzp/spOthHZh", "_blank");
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  await handleSubmitBase(e);
+
+  // Redirect to Razorpay right after form submission
+  window.open("https://rzp.io/rzp/spOthHZh", "_blank");
+};
     }
   };
 
