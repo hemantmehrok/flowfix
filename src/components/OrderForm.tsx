@@ -7,6 +7,7 @@ const OrderForm: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     await handleSubmitBase(e);
     if (state.succeeded) {
       window.location.href = "https://rzp.io/rzp/spOthHZh";
